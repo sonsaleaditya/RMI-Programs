@@ -1,0 +1,7 @@
+compile : javac CircleAreaInterface.java CircleAreaImpl.java CircleAreaServer.java CircleAreaClient.java
+
+run : java CircleAreaServer
+    on one terminal
+run : java CircleAreaClient
+    on another terminal
+ 
